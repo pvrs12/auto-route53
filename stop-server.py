@@ -2,7 +2,7 @@ import boto3
 import sys
 
 def main():
-    if len(sys.argv) < 3:
+    if len(sys.argv) < 2:
         print('You must provide the instance ID to stop')
         print('\t {} <instanceID>'.format(sys.argv[0]))
         sys.exit(1)
